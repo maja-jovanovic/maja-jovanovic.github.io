@@ -1,0 +1,54 @@
+.pagecontent {
+    width: 98%;
+    max-width: 960px;
+    margin: auto;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 48pt;
+}
+
+.line{
+    width: 100%;
+    border-bottom: 2px solid #4C4C4C;
+}
+
+.image-wraper {
+    width: 25%;
+    float: left;
+}
+
+.cover-image {
+    max-width: 150px;
+    width: 90%;
+    padding: 5%;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+.text-wraper {
+    width: 74%;
+    float: right;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+.line.light {
+    border-bottom: 1px solid #626262;
+}
+
+input {
+    border: 0px;
+    background-color: transparent;
+    font-size: 48pt;
+    width: 600px;
+    font-family: "Helvetica Neue";
+    color: #444;
+    font-weight: 300;
+}
