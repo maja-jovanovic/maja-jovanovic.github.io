@@ -1,11 +1,11 @@
 $(document).ready(function() {
     $("#search").keyup(function() {
-        var albums = $(".album");
-        $(albums).show();
+        var alben = $(".album");
+        $(alben).show();
 
         var searchTerm = $(this).val().toLocaleLowerCase();
         
-        albums.each(function(){
+        alben.each(function(){
             if ($(this).text().toLocaleLowerCase().search(searchTerm) == -1) {
                 $(this).hide();
             }
