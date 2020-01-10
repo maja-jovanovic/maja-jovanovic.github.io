@@ -1,12 +1,12 @@
 $(document).ready(function() {
     $("#search").keyup(function() {
-        var alben = $(".album");
-        $(alben).show();
+        var albums = $(".album");
+        $(albums).show();
+
+        var searchTerm = $(this).val().toLocaleLowerCase();
         
-        var searchTerm = $(this).val().toLovalLowerCase();
-        
-        alben.each(function() {
-            if ($(this).text.toLowerCase().search(searchTerm) == -1) {
+        albums.each(function(){
+            if ($(this).text().toLocaleLowerCase().search(searchTerm) == -1) {
                 $(this).hide();
             }
         });
